@@ -1,0 +1,124 @@
+.signup{
+    width: 100%;
+    background: ghostwhite;
+    padding: 40px 50px 50px;
+}
+.signup h2{
+    text-align: center;
+    color: rgb(227, 217, 236);
+}
+.signup form{
+    background: rgb(55, 11, 95);
+    width: 50%;
+    margin: 0 auto;
+    padding: 25px 30px;
+    margin-top: 25px;
+}
+.signup form .frm1{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 18px auto 0;
+}
+.signup form .frm1 label{
+    color: rgba(245, 245, 245, 0.966);
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.signup form .frm1 input{
+    margin-top: 8px;
+    padding: 7px;
+    border-style: none;
+    border-radius: 4px;
+    outline-style: none;
+}
+.signup form fieldset{
+    text-align: center;
+    margin-top: 20px;
+    border-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup form fieldset label{
+    color: rgba(251, 240, 200, 0.95);
+    padding: 8px 8px 7px;
+    font-size: 17px;
+}
+.signup form fieldset legend{
+    color: rgba(245, 245, 245, 0.931);
+    font-size: 17px;
+    font-family: sans-serif;
+}
+.signup form h5{
+    text-align: right;
+    margin-right: 15px;
+    color: rgba(242, 242, 242, 0.936);
+    font-size: 17px;
+    margin-top: 15px;
+}
+.signup form  h5 a{
+    color: rgb(239, 219, 144);
+}
+.signup form  h5 a:hover{
+    color: rgb(144, 234, 239);
+}
+.signup form .frm2{
+    text-align: center;
+}
+.signup form .frm2 label{
+    margin-left: 6px;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: rgba(245, 245, 245, 0.969);
+}
+.signup form .boton{
+    text-align: center;
+    margin-top: 15px;
+}
+.signup form .boton button{
+    padding: 7px 10px;
+    border-style: none;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 4px;
+    color: rgb(55, 11, 95);
+    cursor: pointer;
+    transition-duration: .3s;
+}
+.signup form .boton button:hover{
+    color: rgb(199, 199, 199);
+    background: transparent;
+    cursor: pointer;
+    border: 1px solid whitesmoke;
+}
+@media(max-width: 991px){
+    .signup{
+        padding: 80px 20px 20px;
+    }
+    .signup form{
+        width: 100%;
+        padding: 30px 20px;
+        margin-top: 0px;
+        border-radius: 5px;
+        position: static;
+    }
+    .signup form .frm1{
+        width: 90%;
+    }
+    .signup form .frm1 label, .signup form .frm2 label{
+        font-size: 18px;
+        font-family: 'Oswald', sans-serif;
+    }
+    .signup form .frm1 input{
+        margin-top: 5px;
+        padding: 12px 10px;
+        font-size: 16px;
+        font-family: 'poppins';
+    }
+    .signup form h5{
+        text-align: center;
+        margin-right: 0px;
+        font-family: 'poppins';
+    }
+}

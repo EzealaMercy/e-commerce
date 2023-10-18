@@ -1,0 +1,219 @@
+.contact-container{
+    background: rgba(245, 245, 245, 0.581);
+    padding: 20px 0 60px;
+}
+.contain .getInTouch{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 40px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+.contain .getInTouch .contact-left .icons-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+}
+.contain .getInTouch .row-cont{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contain .getInTouch .row-cont .fa-solid{
+    text-align: center;
+    font-size: 22px;
+}
+.contain  h2{
+    color: rgb(66, 65, 65);
+    text-shadow: 1px 1px 2px rgb(249, 240, 240);
+    font-size: 25px;
+    text-align: center;
+    margin-top: 55px;
+    position: relative;
+    font-family: 'Oswald', sans-serif; font-family: sans-serif;
+}
+.contain  h2::before{
+    content: '';
+    position: absolute;
+    background: rgb(135, 54, 54);
+    width: 130px;
+    height: 2.2px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -15px;
+}
+
+.contact-container p{
+    color: rgba(18, 18, 18, 0.839);
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.contact-container .contact-items{
+    padding: 60px 0 0px;
+    padding-top: 50px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-container .contact-items .contact{
+    width: 22%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    border-radius: 7px;
+    box-shadow: 1px -1px 3px rgba(204, 204, 204, 0.732), -1px 1px 3px rgba(194, 194, 194, 0.817);
+}
+
+.contact-container .contact-items .contact .fa{
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+.contact-container .contact-items .contact .fa .fa-whatsapp{
+    background: green;
+    color: white;
+    padding: 3px 6px;
+    border-radius: 6px;
+}
+.contact-container .contact-items .contact .fa .fa-facebook{
+    background: rgb(20, 20, 148);
+    color: white;
+    padding: 3px 5px;
+    border-radius: 6px;
+}
+.contact-container .contact-items .contact .fa .fa-instagram{
+    background: crimson;
+    color: white;
+    padding: 3px 5px;
+    border-radius: 6px;
+}
+.contact-container .contact-items .contact .fa .fa-phone{
+    color: rgb(217, 111, 5);
+    padding: 3px 5px;
+    border-radius: 6px;
+}
+.contact-container .contact-items a, .contact-container .contact-items .p{
+    padding:2px 9px 5px;
+    border-radius: 4px;
+    margin-top: 5px;
+    font-family: 'Oswald', sans-serif;
+}
+.contact-container .contact-items a p, .contact-container .contact-items .p p{
+    color: rgba(23, 82, 68, 0.892);
+}
+.contact-container .contact-items .p{
+    border-style: none;
+    background: none;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+.contact-container .contact-items p:hover, .contact-container .contact-items .p p:hover{
+    color: rgba(5, 68, 75, 0.822);
+    transition: ease-in-out;
+    transition-duration: .2s;
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: ease-in-out;
+    transition-duration: .3s;
+}
+.contact-container .contact-items h5{
+    color: rgba(39, 38, 38, 0.889);
+    font-size: 17px;
+    margin-top: 7px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.contain .getInTouch .patners{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+.contain .getInTouch .patners img{
+    width: 15%;
+}
+@media(max-width: 991px){
+    .contact-container{
+        padding: 10px 0 45px; 
+    }
+    .contact-container h2{
+        text-shadow: 2px 2px 2px rgba(110, 62, 62, 0.392);
+        color: #000000;
+        font-family: 'poppins';
+        margin-left: 25px;
+        font-size: 20px;
+    }
+    .contact-container .contact-items{
+        padding-top: 20px;
+        width: 90%;
+    }
+    .contact-container .contact-items .contact{
+        width: 47%;
+        align-items: left;
+        justify-content: left;
+        margin-top: 20px;
+        padding: 15px;
+        
+    }
+    .contact-container .contact-items .contact .fa .fa-whatsapp{
+        font-size: 18px;
+    }
+    .contact-container .contact-items .contact .fa .fa-facebook{
+        font-size: 18px;
+    }
+    .contact-container .contact-items .contact .fa .fa-envelope-circle-check{
+        font-size: 18px;
+    }
+    .contact-container .contact-items .contact .fa .fa-phone{
+        font-size: 18px;
+    }
+    .contact-container .contact-items a, .contact-container .contact-items .p{
+        margin-top: 6px;
+        font-size: 16px;
+    }
+    .contact-container .contact-items .p p{
+        font-size: 15px;
+        font-family: 'Oswald', sans-serif;
+    }
+    .contact-container .contact-items h5{
+        font-size: 16px;
+        margin-top: 5px;
+        font-family: 'Open Sans', sans-serif;
+        color: #121212db;
+    }
+    .contain .getInTouch{
+        width: 100%;
+        margin: 0 auto;
+        padding: 40px 40px 35px;
+        flex-wrap: wrap;
+        background: linear-gradient(250deg, #ffffff 30%, #ffff 100%);
+    }
+    .contain .getInTouch .contact-left .icons-cont{
+        display: flex;
+        padding: 0 10px;
+        flex-wrap: wrap;
+    }
+    .contain .getInTouch .patners img{
+        width: 20%;
+    }
+    .contain  h2::before{
+        height: 1.8px;
+    }
+    .contain  h2{
+        font-size: 23px;
+        color: #141414;
+    }
+    .contain .getInTouch .patners{
+        padding-bottom: 10px;
+    }
+    .contact-container .contact-items a p, .contact-container .contact-items .p p{
+        color: rgba(70, 70, 70, 0.892);
+    }
+}

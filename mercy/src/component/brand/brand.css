@@ -1,0 +1,85 @@
+.brand-info{
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    background-color: rgba(244, 242, 239, 0.258);
+    padding: 35px;
+    border-radius: 7px;
+    justify-content: space-between;
+}
+.brand{
+    margin: 60px 15%;
+}
+.brand .brand-header{
+    text-align: center;
+    font-size: 14px;
+}
+.brand-header p{
+    width: 50%;
+    font-size: 19px;
+    margin: 0 auto;
+    line-height: 30px;
+    font-family: sans-serif;
+    word-spacing: 1px;
+    letter-spacing: 0.9px;
+    margin-top: 10px;
+}
+.brand .brand-header h1{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color: rgba(0, 0, 0, 0.89);
+}
+@media(max-width: 680px){
+    .brand{
+        margin: 30px 0px;
+        width: 100%;
+    }
+    .brand .brand-info{
+        display: flex;
+        margin-top: 0px;
+        flex-wrap: wrap;
+        align-items: left;
+        background-color: transparent;
+        padding: 25px 15px;
+        box-shadow: none;
+    }
+    .brand .brand-header{
+        align-items: left;
+    }
+    .brand .brand-header h1{
+        font-size: 25px;
+        text-align: center;
+        font-family: 'Oswald', sans-serif;
+        color: rgba(0, 0, 0, 0.89);
+    }
+    .brand .brand-header p{
+        width: 99%;
+        font-size: 16px;
+        border-radius: 5px;
+        font-family: 'Oswald', sans-serif;
+        line-height: 24px;
+        text-align: center;
+        background: rgba(245, 243, 243, 0.989);
+        padding: 10px;
+        color: rgba(0, 0, 0, 0.972);
+        letter-spacing: 0px;
+        word-spacing: 0px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1024px){
+    .brand{
+        margin: 30px 4%;
+    }
+    .brand .brand-header h1{
+        font-size: 25px;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.89);
+    }
+    .brand .brand-header{
+        text-align: center;
+        font-size: 14px;
+    }
+    .brand-header p{
+        width: 65%;
+    }
+}

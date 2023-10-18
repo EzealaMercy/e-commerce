@@ -1,0 +1,268 @@
+
+.service .sav1, .sav2{
+    padding: 70px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.service .sav1{
+    padding-top: 120px;
+}
+.sav2 h2{
+    color: rgba(81, 19, 19, 0.961);
+    font-size: 30px;
+}
+.service .sav1 h2{
+    color: rgba(251, 251, 251, 0.951);
+    font-size: 30px;
+}
+.service .sav1{
+    z-index: 1;
+    position: absolute;
+}
+.sav-all .service{
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 60vh;
+    z-index: 0;
+}
+.sav-all .service::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 60vh;
+    top: 0;
+    z-index: 0;
+    left: 0;
+    background: rgba(14, 10, 10, 0.794);
+}
+.service .sav1 P, .sav2 p{
+    color: rgba(0, 0, 0, 0.926);
+    width: 55%;
+    line-height: 30px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.service .sav1 P{
+    color: rgba(243, 208, 192, 0.946);
+}
+.service .sav1 button{
+    background: blueviolet;
+    cursor: pointer;
+    padding: 8px 13px;
+    border-style: none;
+    font-size: 18px;
+    border-radius: 3px;
+    color: white;
+    margin-top: 15px;
+    transition-duration: 0.3s;
+}
+.service .sav1 button:hover{
+    background: rgb(226, 222, 229);
+    color: rgb(20, 19, 19);
+    box-shadow: 1px 1px 2px gray;
+}
+.sav-all .sav3{
+    display: flex;
+    flex-wrap: wrap;
+    width: 65%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.sav-all .sav3 .sav-flex:hover{
+    transform: scale(1.1);
+    transition: ease-in-out;
+    transition-duration: .3s;
+}
+.sav-all .sav3 .sav-flex{
+    width: 30%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+.sav-all .sav3 .sav-flex img{
+    width: 100%;
+    border-radius: 2px;
+}
+.sav-all .sav3 .sav-flex p{
+    text-align: center;
+    margin-top: 7px;
+    font-size: 17px;
+    font-family: 'Oswald', sans-serif;
+    color: rgba(0, 0, 0, 0.913);
+}
+.sav-all .sav3 .sav-flex h3{
+    color: rgba(81, 19, 19, 0.961);
+    font-size: 20px;
+    margin-top: 6px;
+}
+.sav-all .sav3 .sav-text{
+    box-shadow: 1px -1px 3px rgb(181, 179, 179), -1px 1px 3px rgb(167, 164, 164);
+    padding: 25px;
+}
+.sav-all .sav3 .sav-text .fa-solid{
+    color: rgba(94, 125, 8, 0.912);
+}
+@media(max-width: 991px){
+    .service .sav1, .sav2{
+        padding: 40px 0px 0px;
+    }
+    .service .sav1{
+        padding-top: 120px;
+    }
+    .sav2 h2{
+        color: rgb(81, 19, 19);
+        font-size: 20px;
+    }
+    .service .sav1 h2{
+        color: #fffffff5;
+        font-size: 20px;
+    }
+    .sav2 h2{
+        position: relative;
+    }
+    .sav2 h2::before{
+        content: '';
+        position: absolute;
+        height: 2px;
+        width: 130px;
+        background: rgb(51, 4, 96);
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -13px;
+    }
+    .service .sav1 P{
+        width: 80%;
+        font-family: 'Oswald', sans-serif;
+        font-size: 18px;
+        letter-spacing: 0px;
+        word-spacing: 01px;
+        line-height: 30px;
+        color: rgb(249, 251, 251);
+    }
+    .sav2 P{
+        width: 95%;
+        padding-top: 17px;
+        font-size: 18px;
+        font-family: 'Oswald', sans-serif;
+        line-height: 31px;
+        color: #000000;
+        letter-spacing: 0px;
+        word-spacing: 0px;
+    }
+    .service .sav1 button{
+        padding: 8px 13px 10px;
+        font-size: 18px;
+    }
+    .sav-all .sav3{
+        width: 90%;
+        padding-top: 20px;
+    }
+    .sav-all .sav3 .sav-flex{
+        width: 100%;
+        margin-top: 40px;
+    }
+    .sav-all .sav3 .sav-flex h3{
+        margin-top: 10px;
+        font-size: 21px;
+        font-family: 'Oswald', sans-serif;
+    }
+    .sav-all .sav3 .sav-flex p{
+        font-family: 'Oswald', sans-serif;
+        line-height: 28px;
+        letter-spacing: 0px;
+        word-spacing: 0px;
+        font-size: 18px;
+    }
+}
+@media screen and (min-width: 220px) and (max-width:380px){
+    .sav-all .service{
+        height: 75vh;
+    }
+    .sav-all .service::before{
+        height: 75vh;
+        background: rgba(25, 15, 15, 0.471);
+    }
+}
+@media screen and (min-width: 768px) and (max-width:1024px){
+    .service{
+        height: 30vh;
+    }
+    .service::before{
+        height: 30vh;
+        background: rgba(25, 15, 15, 0.842);
+    }
+    .service .sav1 h2{
+        color: rgba(226, 214, 214, 0.905);
+        line-height: 35px;
+        font-size: 25px;
+    }
+    .service .sav1 p{
+        color: rgba(226, 214, 214, 0.905);
+        line-height: 38px;
+        font-size: 25px;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+        width: 100;
+        margin-bottom: 15px;
+    }
+    .sav2 P{
+        width: 75%;
+        padding-top: 17px;
+    }
+    .sav-all .sav3{
+        width: 90%;
+        margin-bottom: 30px;
+    }
+    .sav-all .sav3 .sav-flex:hover{
+        transform: scale(1.1);
+        transition: ease-in-out;
+        transition-duration: .3s;
+    }
+    .sav-all .sav3 .sav-flex{
+        width: 30%;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+    }
+    .sav-all .sav3 .sav-flex img{
+        width: 100%;
+        border-radius: 2px;
+    }
+    .sav-all .sav3 .sav-flex p{
+        text-align: center;
+        margin-top: 7px;
+        line-height: 28px;
+        letter-spacing: 1px;
+        font-family: 'Oswald', sans-serif;
+        color: rgba(0, 0, 0, 0.913);
+    }
+    .sav-all .sav3 .sav-flex h3{
+        color: rgba(81, 19, 19, 0.961);
+        font-size: 14px;
+        margin-top: 6px;
+    }
+    .sav-all .sav3 .sav-text{
+        box-shadow: 1px -1px 3px rgb(181, 179, 179), -1px 1px 3px rgb(167, 164, 164);
+        padding: 25px;
+    }
+    .sav-all .sav3 .sav-text .fa-solid{
+        color: rgba(94, 125, 8, 0.912);
+    }
+}

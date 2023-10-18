@@ -1,0 +1,176 @@
+.signall{
+    padding: 90px 40px 65px;
+    background: rgb(55, 11, 95);
+}
+.sign{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 40px;
+}
+.signall .signlog{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px -2px 15px rgb(69, 67, 70), -2px 2px 15px rgb(69, 67, 70);
+}
+.signall .signlog h5{
+    text-align: right;
+    padding-top: 20px;
+    margin-right: 40px;
+    color: rgb(99, 99, 99);
+    font-size: 18px;
+}
+.signall .signlog h5 a{
+    color: blueviolet;
+    font-size: 18px;
+}
+.signall .signlog h5 a:hover{
+    color: rgb(179, 131, 43);
+}
+.signall img{
+    width: 45%;
+}
+.signall .sign-items{
+    width: 45%;
+}
+.signall .sign-items form{
+    margin-top: 20px;
+}
+.signall .sign-items .frm1{
+    margin-top: 10px;
+    position: relative;
+}
+.signall .sign-items .frm1 .fa-solid{
+    left: 10px;
+    position: absolute;
+    font-size: 13px;
+    top: 10px;
+    color: rgb(63, 9, 112);
+}
+.signall .sign-items .frm1 input{
+    width: 70%;
+    padding: 10px 30px;
+    border-style: none;
+    outline: none;
+    border: 1px solid rgb(77, 13, 138) ;
+    border-radius: 4px;
+}
+.signall .sign-items .send{
+    margin-top: 20px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.signall .sign-items .send button{
+    background: rgb(63, 9, 112);
+    font-size: 18px;
+    padding: 8px 13px 7px;
+    color: rgba(255, 255, 255, 0.988);
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+    transition-duration: .3s;
+}
+.signall .sign-items .send a{
+    color: rgb(238, 162, 23);
+    font-size: 13px;
+    font-weight: bold;
+    transition-duration: .3s;
+}
+.signall .sign-items .send a:hover{
+    color: rgb(32, 16, 93);
+}
+.signall .sign-items .send button:hover{
+    background: transparent;
+    color: rgb(86, 41, 127);
+    box-shadow: 2px -2px 2px rgb(86, 41, 127), -2px 2px 2px rgb(86, 41, 127);
+}
+.signall .sign-items h2{
+    font-size: 23px;
+    color: rgba(56, 15, 7, 0.961)
+}
+.signall .sign-items h2 .p{
+    color: rgb(210, 146, 43);
+}
+.signall .sign-items h2 .e{
+    color: rgb(55, 11, 95);
+}
+.signall .sign-items h2 .i{
+    color: magenta;
+}
+.signall .sign-items p{
+    font-size: 20px;
+    color: rgba(24, 23, 23, 0.896);
+    font-family: 'Oswald', sans-serif;
+}
+@media(max-width: 991px){
+    .signall{
+        padding: 100px 30px 45px;
+        position: static;
+    }
+    .sign{
+        flex-wrap: wrap;
+        padding: 30px 20px;
+    }
+    .signall .signlog h5{
+        font-size: 16px;
+    }
+    .signall img{
+        width: 100%;
+    }
+    .signall .sign-items{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .signall .sign-items form{
+        margin-top: 30px;
+        text-align: center;
+    }
+    .signall .sign-items .frm1{
+        margin-top: 15px;
+    }
+    .signall .sign-items .frm1 .fa-solid{
+        left: 27px;
+        font-size: 11px;
+        top: 15px;
+    }
+    .signall .sign-items .frm1 input{
+        width: 90%;
+        padding: 12px 35px;
+    }
+    .signall .sign-items .frm1 input::placeholder{
+        font-size: 17px;
+    }
+    .signall .sign-items .send{
+        margin: 0 auto;
+    }
+    .signall .sign-items .send button{
+        margin-top: 20px;
+        text-align: center;
+        margin-right: 5px;
+        font-size: 17px;
+    }
+    .signall .sign-items .send a{
+       margin-top: 20px;
+    }
+    .signall .sign-items h2{
+        font-size: 16px;
+        text-align: center;
+    }
+    .signall .sign-items p{
+        font-size: 18px;
+        text-align: center;
+        margin-top: 10px;
+        font-family: 'Oswald', sans-serif;
+    }
+}
+@media screen and (min-width: 768px) and (max-width:1024px){
+    .signall .sign-items .frm1 .fa-solid{
+        left: 125px;
+        font-size: 11px;
+    }
+    .signall .sign-items .frm1 input{
+        width: 70%;
+        padding: 8px 45px;
+    }
+}

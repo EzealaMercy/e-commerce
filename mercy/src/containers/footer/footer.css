@@ -1,0 +1,120 @@
+.footer{
+    display: flex;
+    align-items: center;
+    padding: 60px 90px 40px;
+    position: relative;
+    width: 100%;
+    height: 36vh;
+}
+.footer::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 36vh;
+    top: 0;
+    left: 0;
+    background: rgba(13, 13, 13, 0.955);
+}
+
+.footer .foot1{
+    margin-right: 90px;
+    z-index: 2;
+}
+.footer .foot1 h3{
+    color: rgb(212, 206, 206);
+    font-size: 16px;
+    margin-top: 7px;
+}
+.footer .foot1 h3 a:hover{
+    color: rgb(24, 107, 107);
+    transition: ease-in-out;
+    transition-duration: .3s;
+}
+.footer .foot1 h2{
+    color: rgb(207, 220, 220);
+    font-size: 19px;
+    z-index: 3;
+}
+.footer .foot1 .copryt{
+    color: rgb(200, 201, 201);
+    margin-top: 13px;
+}
+.footer .foot1 .fa-brands{
+    margin-right: 30px;
+    margin-top: 12px;
+    font-size: 25px;
+    background: rgb(57, 57, 57);
+    padding: 8px 9px;
+    border-radius: 8px;
+}
+.footer .foot1 .fa-brands:hover{
+    transform: scale(1.1);
+    transition: transform .2s;
+}
+.footer .foot1 .fa-whatsapp{
+    color: rgb(37, 196, 37);
+}
+.footer .foot1 .fa-facebook{
+    color: rgba(14, 135, 191, 0.954);
+}
+.footer .foot1 .fa-twitter{
+    color: rgb(12, 151, 189);
+}
+.footer .foot1 .fa-instagram{
+    color: rgba(233, 23, 58, 0.959);
+}
+@media(max-width: 991px){
+    .footer{
+        flex-wrap: wrap;
+        padding: 40px 30px 40px;
+        height: 70vh;
+    }
+    .footer .foot1 h2{
+        font-size: 19px;
+        margin-top: 20px;
+    }
+    .footer .foot1 .fa-brands{
+        margin-right: 30px;
+        margin-top: 12px;
+        font-size: 25px;
+    }
+    .footer::before{
+        height: 70vh;
+    }
+
+}
+@media(max-width: 400px){
+    .footer::before{
+        height: 95vh;
+    }
+    .footer{
+        height: 95vh;
+    }
+    .footer .foot1 .copryt{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 700px) and (max-width:990px){
+    .footer::before{
+        height: 38vh;
+    }
+    .footer{
+        height: 38vh;
+    }
+}
+@media(max-width: 300px){
+    .footer::before{
+        height: 115vh;
+    }
+    .footer{
+        height: 115vh;
+    }
+}
+@media(max-width: 370px){
+    .footer::before{
+        height: 80vh;
+    }
+    .footer{
+        height: 80vh;
+    }
+}
